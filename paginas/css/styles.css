@@ -1,0 +1,110 @@
+body{
+    font-family: sans-serif;
+}
+
+img{
+    width: 40%;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+
+.titulo{
+    text-align: center;
+    margin: 1.50rem;
+    color: aqua;
+    font-size: 3rem;
+
+}
+
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links_enlaces{
+    margin: 15px;
+    color: #000;
+    font-size: 1.23rem;
+}
+
+
+
+@media(min-width:768px) {
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        
+    }
+
+
+    .titulo{
+        color: aqua;
+        text-align: left;
+    }
+
+    
+img{
+    width: 40%;
+} 
+}
+
+.div_productos{
+    border: 2px solid rgb(228, 216, 216);
+}
+    
+
+
+
+.img_producto{
+    
+}
+
+.texto_producto{
+    display: flex;
+    justify-items:right ;
+    align-items: center;
+    justify-content: right;
+    text-align: right;
+   
+
+}
+
+.parrafos_productos{
+    margin: 3rem;
+}
+
+.div_enlaces_comprar{
+   text-align: center;
+    background-color: aqua;
+    border-radius: 30px;
+    padding: 25px 15px;
+    margin-bottom: 11px;
+    font-weight: bold;
+    height: 20px;
+   
+   
+    
+}
+
+.enlaces_comprar{
+    color: white;
+    text-align: center;
+}
+
+
+.subtitulo{
+    text-align: center;
+    color: rgb(22, 19, 19);
+    font-size: 1.40rem;
+    
+}
